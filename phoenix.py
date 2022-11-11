@@ -9,7 +9,7 @@ from googlesearch import search #for dorking
 
 #user input
 parser = argparse.ArgumentParser()
-parser.add_argument("-o", "--Output", help = "Output dk into file | note: no file extension (e.g -o list)")
+parser.add_argument("-o", "--Output", help = "Output dk into file")
 parser.add_argument("-d", "--dk", help = "Input dk")
 parser.add_argument("-a", "--Amount", help = "Input dk")
 args = parser.parse_args()
