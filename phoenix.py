@@ -20,7 +20,7 @@ out = args.Output
 #function to write result to file 
 #sf - savefile | wf - writefile
 def output(sf):
-  wf = open(out, 'a')
+  wf = open(str(out), 'a')
   wf.write(sf)
   wf.write('\n')
   wf.close()
