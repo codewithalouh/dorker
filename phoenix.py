@@ -10,7 +10,7 @@ from googlesearch import search #for dorking
 #user input
 parser = argparse.ArgumentParser()
 parser.add_argument("-o", "--Output", help = "Output dk into file")
-parser.add_argument("-d", "--dk", help = "Input dk")
+parser.add_argument("-d", "--Dork", help = "Input dk")
 parser.add_argument("-a", "--Amount", help = "Input dk")
 args = parser.parse_args()
 
@@ -29,7 +29,7 @@ def output(sf):
 #function to initiate dorking
 #dk - dork | a - amount
 def scan():
-  dk = args.dk
+  dk = args.Dork
   need = args.Amount
   x = 0
   
